@@ -68,6 +68,43 @@
 
 /* mobile  */
 @media only screen and (max-width: 739px) {
+    .body__top-wrap {
+        margin-top: 0;
+    }
+    .body__discover, .body__contact, .footer, .header,
+    .body__top, .body__footer-left-img, .body__footer-right-img,
+    .body__footer-right, .body__footer-right-wrap > img
+     {
+        max-width: 375px;
+    }
+    .body__footer-left-wrap,
+    .body__footer-center,
+    .body__footer-right-wrap {
+        flex-direction: column;
+    }
+    .body__footer-left-wrap,
+    .body__footer-center,
+    .body__footer-right-wrap  img {
+        width: 375px;
+    }
+    .col.col-3-3.m-12 img {
+        width: unset;
+    }
+    .body__footer-right-wrap {
+        width: 375px;
+    }
+    .body__contact-input {
+        width: 200px;
+    }
+    .footer-wrap {
+        flex-direction: column;
+    }
+    .footer-info {
+        text-align: center;
+    }
+    .footer-apps {
+        margin: 30px 100px;
+    }
 }
 
 /* Tablet */
