@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --text-color: #333;
+    --text-description-color: #8c8e90;
+    --text-title-color: #353738;
+    --primary-color: #64c29e;
+    --bg-color: #f7f7f7;
+    --line-color: #d7d7d7;
+}
+
+html {
+    font-family: lato;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+}
